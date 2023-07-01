@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding:0;
+}
+ 
+.logo{
+    width:10%
+    display: flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.logo img{
+width: 33%;
+border: 3px solid whitesmoke;
+border-radius: 50px;
+}
+
+.navbar {
+   display: flex;
+   padding right: 10px;
+   padding button: 45px;
+   justify-content:center;
+   position: sticky;
+   top:0;
+   cursor: pointer;
+}
+
+.nav-list{
+  width: 80%;
+  background-color: rgb(5, 3, 1);
+  list-style: none;
+  display:flex;
+  padding: 10px 60px;
+  font-size: x-large;
+
+}
+
+.nav-list li{
+    list-style: none;
+text-decoration:none;
+color: white;
+display:flex;
+float:left;
+padding: 30px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    padding: 24 px 30px;
+    color:rgb(240, 240, 230);
+    float: left;
+    padding right:40px;
+   
+    
+}
+
+
+.nav-list li a:hover{
+    text-decoration: none;
+    padding: 24 px 30px;
+    color:rgb(91, 81, 69);
+    float: left;
+  
+    
+}
+
+.rightnav{
+
+  
+    text-align: center;
+   width: 30%;
+display:flex;
+   
+   
+}
+
+#search{
+    padding: 10px;
+    padding left:10%;
+    padding right:40%;
+    font-size: 15px;
+    border-radius: 15%;
+    border-color: coral;
+    text-align: center;
+    
+}
+
+
+.background {
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+  
+}
+.box-main{
+    display:flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: bisque;
+    background-size: cover;
+}
+   
+    firstSection{
+        height:100vh;
+
+    }
+  
+
+
+.firstHalf{
+    margin-left: 0cqmin;
+    padding-left: 10px;
+    display:flex;
+    justify-content: center;
+    background-image: "imgage.jpg";
+    height:100vh;
+
+   
+}
+
+.secondHalf{
+    padding-left: 10px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.third{
+    max-width: 7cm;
+    width:20%;
+    height:20px;
+padding: 50px 50px 50px;
+border-image-slice: 20%;
+
+}
+
+.text-big{
+font-size:50px;
+}
+
+.text-small{
+font-size:25px;
+}
